@@ -1,0 +1,58 @@
+
+
+
+*** RESULTS OF CROP GROWTH MODEL NPOTATO *** SUMMARY OF OUTPUT FOR POTATO AND YIELD STATISTICS ***
+
+Name of run: WAGIX, Station= WAGE , Soil=   1, Crop=   2, Organic M.=   1, Nsoil=   1, Tub.gr.=  1, Leafcl.=  1, IRR=  1, Pot.p.=   1, Runof=0.00, CO2=355.
+ Wageningen, irr.+ pot. pr., 10 cm soil w., mid var.,RUE=3.0                     
+
+
+YEAR     PLA EMERG  TUBI  HALT   WRT   WLV    WST   WTU    TBMR     HI  LAIM PARINT RUE   DWAV RAIN  ESOIL   TRANS DRAIN RUNOF IRR  WUE MINOM MINFM DNTOT NRAIN NGIFT NUPT  NLEACH NIMMO  NUE  DNFM  NBIOM
+1971     105   137   160   263  1289.  1232.  3000. 16743. 20975.  0.80  5.82  754.  2.78   46.  285.  120.    320.  41.   0. 150.  4.77 109.3   6.5-135.4   5.7 400.0 353.9   4.8   0.0  59.3  39.0  32.5
+
+ MEANS over   1 years  :
+        105.  137.  160.  263.  1289.  1232.  3000. 16743. 20975.  0.80  5.82  754.  2.78   46.  285.  120.    320.  41.   0. 150.  4.77 109.3   6.5-135.4   5.7 400.0 353.9   4.8   0.0  59.3  39.0  32.5
+ STANDARD DEVIATIONS  :
+          0.    0.    0.    0.     0.     0.     0.     0.     0.  0.00  0.00    0.  0.00    0.    0.    0.      0.   0.   0.   0.  0.00   0.0   0.0   0.0   0.0   0.0   0.0   0.0   0.0   0.0   0.0   0.0
+ VARIATION COEFFICIENTS (%)  : 
+         0.0   0.0   0.0   0.0    0.0    0.0    0.0    0.0    0.0   0.0   0.0   0.0   0.0   0.0   0.0   0.0     0.0  0.0  0.0  0.0   0.0   0.0   0.0   0.0   0.0   0.0   0.0   0.0   0.0   0.0   0.0   0.0
+
+
+
+*** RESULTS OF CROP GROWTH MODEL NPOTATO *** SUMMARY OF OUTPUT FOR POTATO AND YIELD STATISTICS ***
+
+Name of run: WAGWW, Station= WAGE , Soil=   1, Crop=   2, Organic M.=   1, Nsoil=   1, Tub.gr.=  1, Leafcl.=  1, IRR=  0, Pot.p.=   1, Runof=0.00, CO2=355.
+ Wageningen, not-irr.+ pot. pr., 10 cm soil w., mid var.,RUE=3.0                 
+
+
+YEAR     PLA EMERG  TUBI  HALT   WRT   WLV    WST   WTU    TBMR     HI  LAIM PARINT RUE   DWAV RAIN  ESOIL   TRANS DRAIN RUNOF IRR  WUE MINOM MINFM DNTOT NRAIN NGIFT NUPT  NLEACH NIMMO  NUE  DNFM  NBIOM
+1971     105   137   160   263  1079.  1132.  2366. 12905. 16403.  0.79  5.43  747.  2.20   77.  285.  118.    231.  13.   0.   0.  4.69  88.6   6.3-164.6   5.7 400.0 306.1   1.2   0.0  53.6  37.9  31.6
+1972     105   144   168   275  1182.  1225.  2860. 16606. 20691.  0.80  5.93  746.  2.78   37.  421.  139.    271.  48.   0.   0.  5.05 103.3   6.5-149.5   8.4 400.0 341.5   5.4   0.0  60.6  38.7  32.3
+1973     105   144   167   256   655.   812.  1483.  8137. 10432.  0.78  4.11  689.  1.51   85.  213.  150.    141.   7.   0.   0.  3.58  74.7   6.1-279.9   4.3 400.0 192.1   0.6   0.0  54.3  36.6  30.5
+
+ MEANS over   3 years  :
+        105.  142.  165.  265.   972.  1057.  2236. 12549. 15842.  0.79  5.16  727.  2.16   66.  307.  136.    214.  23.   0.   0.  4.44  88.9   6.3-198.0   6.1 400.0 279.9   2.4   0.0  56.2  37.7  31.5
+ STANDARD DEVIATIONS  :
+          0.    3.    4.    8.   228.   177.   569.  3467.  4207.  0.01  0.77   27.  0.52   21.   86.   13.     54.  18.   0.   0.  0.62  11.7   0.1  58.2   1.7   0.0  63.8   2.1   0.0   3.1   0.9   0.7
+ VARIATION COEFFICIENTS (%)  : 
+         0.0   2.3   2.2   3.0   23.5   16.7   25.5   27.6   26.6   1.2  14.9   3.7  23.8  32.0  28.1   9.8    25.4 80.1  0.0  0.0  14.0  13.2   2.3  29.4  28.1   0.0  22.8  88.3   0.0   5.6   2.3   2.3
+
+
+
+*** RESULTS OF CROP GROWTH MODEL NPOTATO *** SUMMARY OF OUTPUT FOR POTATO AND YIELD STATISTICS ***
+
+Name of run: Bolow, Station= BOLO , Soil=   1, Crop=   2, Organic M.=   1, Nsoil=   1, Tub.gr.=  1, Leafcl.=  1, IRR=  0, Pot.p.=   1, Runof=0.00, CO2=355.
+ Bologna, not-irr.+ pot. pr., 10 cm soil w., mid var.,RUE=3.0                    
+
+
+YEAR     PLA EMERG  TUBI  HALT   WRT   WLV    WST   WTU    TBMR     HI  LAIM PARINT RUE   DWAV RAIN  ESOIL   TRANS DRAIN RUNOF IRR  WUE MINOM MINFM DNTOT NRAIN NGIFT NUPT  NLEACH NIMMO  NUE  DNFM  NBIOM
+1971     105   127   151   215   704.  1066.  1252.  3876.  6194.  0.63  5.28  825.  0.75  100.   71.   70.    100.   0.   0.   0.  3.63  63.1   5.8-260.6   1.4 400.0 186.1   0.0   0.0  33.3  35.1  29.2
+1972     105   132   156   220   692.  1024.  1322.  4345.  6692.  0.65  5.25  722.  0.93   59.  257.  114.    114.  88.   0.   0.  2.94  69.1   6.0-264.0   5.1 400.0 183.6  12.1   0.0  36.4  36.0  30.0
+1973     105   130   156   223   800.  1219.  2038.  5727.  8984.  0.64  5.60  832.  1.08   95.  173.   77.    181.  10.   0.   0.  3.48  78.3   6.2-241.5   3.5 400.0 222.0   0.9   0.0  40.5  37.1  30.9
+
+ MEANS over   3 years  :
+        105.  130.  154.  219.   732.  1103.  1537.  4650.  7290.  0.64  5.38  793.  0.92   84.  167.   87.    132.  32.   0.   0.  3.35  70.1   6.0-255.4   3.3 400.0 197.2   4.3   0.0  36.7  36.1  30.0
+ STANDARD DEVIATIONS  :
+          0.    2.    2.    3.    48.    84.   355.   786.  1215.  0.01  0.16   50.  0.13   18.   76.   19.     35.  39.   0.   0.  0.30   6.2   0.1   9.9   1.5   0.0  17.5   5.5   0.0   2.9   0.8   0.7
+ VARIATION COEFFICIENTS (%)  : 
+         0.0   1.6   1.5   1.5    6.6    7.6   23.1   16.9   16.7   1.5   3.0   6.4  14.7  21.6  45.5  22.1    26.7121.2  0.0  0.0   8.9   8.9   2.3   3.9  45.5   0.0   8.9 127.0   0.0   8.0   2.3   2.3

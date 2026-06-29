@@ -1,0 +1,16 @@
+*------------------------------------------------------------------*
+* Soil organic matter DATA FILE for use with NPOTATO (June 1996)   *
+*                                                                  *                              *
+*------------------------------------------------------------------*
+*
+PLAYER   = 40.     ! depth of plough layer (cm)
+PERCOM   = 2.8     ! percentage organic material (humus) in plough layer (kg C/kg soil)
+RDROM    = 7.0E-5  ! relative decomposition rate of old org.material (kg/kg/d)
+REFTMP   = 20.0    ! reference temperature for mineralisation (C)
+FM       = 2000.   ! amount of crop residues of previous crop or fresh organic material
+                   ! (kg DM/ha)
+RDRFM    = 0.035   ! relative min.rate of fresh org.material (kg/kg/d)
+CCFM     = 0.5     ! carbon content of fresh org.material (kg C/kg DM)
+NCFM     = 0.02    ! nitrogen content of fresh org.material (kg N/kg DM)
+DISASS   = 2.      ! dissimilation:assimilation ratio for growth of microbial biomass
+NCRB     = 0.1     ! N:C ratio of biomass (kg N/kg C)

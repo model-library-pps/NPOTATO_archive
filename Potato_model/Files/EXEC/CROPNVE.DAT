@@ -1,0 +1,175 @@
+*----------------------------------------------------------------------*
+* CROP data file for use with NPOTATO model (September 1996)           *
+*----------------------------------------------------------------------*
+* for early variety as based on data from E.R. Boons-Prins et al. 
+*   (1993) and data from P.L. Kooman (1995). Data adapted for Dutch trials.
+*---------------------------
+* Initial conditions
+*---------------------------   
+* 
+TDWI =  75.            ! initial total crop dry weight excl. tubers (kg ha-1)
+RD   =  10.            ! rooting depth (cm)
+WTUI =  30.            ! initial dry weight of tubers (kg ha-1)
+*
+*----------------------------------------------------------------------
+* parameters
+*----------------------------------------------------------------------
+*
+RGRL  = 0.0120         ! maximum relative increase in LAI (ha ha-1 d-1)
+RGRT  = 0.37           ! maximum relative growth rate for tubers (kg kg-1 d-1)   
+*
+*
+* temperature sums 
+TSUMEM  =   285.      ! temperature sum required for emergence of 50% of plants (above TBASE= 2C) (C d)
+TSUMTI  =   100.      ! temperature sum from emergence till tuber initiation (C d); may vary from 130 
+                      ! (very early) to 320 C d (very late var.; Spitters, 1990)
+TSUMCS  =  1290.   ! temperature sum from tuber initiation until crop senescence (C d); temperature sum may 
+                   ! vary from 1100 (very early var.) to 1800 C d (very late variety) (Spitters, 1990).
+TBASE   =  2.      ! base temperature (C)   
+*
+* day length effect on development rate until tuber initiation
+IDAYL   =    0        ! 0 = no day length effect; 1 = day length effect   
+DAYMAX  =   20.       ! day length for maximum long day effect (h)
+DAYMIN  =   10.       ! day length with no long day effect (h)
+* maintenance coefficients (kg(CH2O)/kg(dm)/d
+MAINLV   =  0.030     ! maintenance coefficient for leaves (kg kg-1 d-1)
+MAINST   =  0.015     ! maintenance coefficient for stems  (kg kg-1 d-1)
+MAINRT   =  0.015     ! maintenance coefficient for roots  (kg kg-1 d-1)
+MAINTU   =  0.0045    ! maintenance coefficient for tubers (kg kg-1 d-1)
+REFTMP   =  25.       ! reference temperature for crop maintenance (C) 
+Q10RM    =   2.       ! Q10 for maintenance respiration
+
+PMXUPR   =  7.0       ! potential maximum nitrogen uptake (kg N ha-1 d-1)
+RDMCR    =  50.       ! maximum effective rooting depth (cm)
+LAICR    =   4.0      ! critical leaf area index (m2 m-2)
+
+* Efficiency coefficients for the conversion of assimilates into
+* proteins and into structural carbohydrates. 
+EFCPR    =  0.44      ! efficiency coefficient for the conversion of assimilates into proteins (kg kg-1) 
+EFCCH    =  0.825     ! efficiency coefficient for the conversion of assimilates into 
+                      ! structural carbohydrates (kg kg-1) 
+
+EFF      =  0.45      ! initial light use efficiency of single leaf (kg ha-1 h-1 J-1 m2 s)
+KDIF     =  1.0       ! extinction coefficient for diffuse visible light (-)
+
+FC       =   200.     ! conversion factor from weight to relative root extension
+TCNT     =    10.     ! time constant for nitrogen translocation
+
+* residual nitrogen fractions
+RNFLV    =  0.016     ! residual nitrogen fraction in leaves
+RNFST    =  0.006     ! residual nitrogen fraction in stems
+RNFRT    =  0.008     ! residual nitrogen fraction in roots
+RNFTU    =  0.005     ! residual nitrogen fraction in tubers
+RGM      =    2.      ! potential root length growth rate 
+CHAMAX   =    0.00     ! relative change in maximum assimilation rate and initial light-use efficiency 
+DISTF    =    2.5     ! shape factor for exponential root distibution function
+
+SPAN     =   30.      ! life span of leaves growing at 35 C (d)
+
+*----------------------------------------------------------------------------
+*------------------------- AFGEN FUNCTION VALUES ------------------------------
+*-----------------------------------------------------------------------------
+* 
+TMPFTB   =    0.,  0.01,   ! reduction factor of maximum assimilation rate 
+              2.,  0.01,   ! as function of average daily temperature (-)
+             10.,  0.50, 
+             16.,  1.00,  
+             24.,  1.00,
+             30.,  0.50,
+             35.,  0.01
+TTUBTB   =    0.,  0.01,   ! reduction factor of tuber growth rate 
+              2.,  0.01,   ! as function of average daily temperature (-)
+             10.,  0.50, 
+             16.,  1.00,  
+             22.,  1.00,
+             30.,  0.01
+* fraction of dry matter growth allocated to the different plant organs 
+* 
+FRRTB  =      0.00, 0.20,  ! fraction of total growth allocated to roots
+              1.00, 0.20,
+              1.36, 0.00,
+              2.00, 0.00
+*
+FRLTB  =      0.00, 0.80,  ! fraction of shoot growth allocated to leaves
+              1.00, 0.65,
+              1.27, 0.00,          
+              2.00, 0.00
+*
+FRSTB  =      0.00, 0.20,  ! fraction of shoot growth allocated to stems
+              1.00, 0.35,
+              1.27, 0.25,
+              1.36, 0.00,
+              2.00, 0.00
+*
+FRTTB  =      0.00, 0.00,  ! fraction of shoot growth allocated to tubers
+              1.00, 0.00,
+              1.27, 0.75,
+              1.36, 1.00,
+              2.00, 1.00
+*
+SLAT   =      0.00, 30.0,  ! specific leaf area as function of development stage (m2 kg-1)
+              2.00, 30.0
+
+CROPHTB =     0.0, 0.05,   ! crop height (m) as a function of development stage
+              1.0, 0.40,
+              1.2, 0.60,
+              2.0, 0.60
+TRDRTT  =     0.0, 0.01,    ! temperature reduction factor for root extension (-)
+              2.0, 0.01, 
+             10.0, 0.50, 
+             16.0, 1.00, 
+             24.0, 1.00,
+             30.0, 0.50,
+             35.0, 0.01
+WRDRTT  =   0.000, 0.00,    ! moisture reduction factor for root extension (-)
+            0.025, 0.20,
+            0.050, 0.35,
+            0.100, 0.50,
+            0.200, 0.70,
+            0.300, 0.85,
+            0.400, 1.00,
+            1.100, 1.00
+RDRTB  =    0.000, 0.00,    ! death rate of roots as a function of development stage
+            1.600, 0.00,    ! (kg kg-1 d-1)
+            1.601, 0.01,
+            1.800, 0.02,
+            2.000, 0.02
+RDSTB  =    0.000, 0.00,    ! death rate of stems as a function of development stage
+            1.600, 0.00,    ! (kg kg-1 d-1)
+            1.601, 0.01,
+            1.800, 0.02,
+            2.000, 0.02
+RDLTB  =    0.000, 0.00,    ! death rate of leaves as a function of development stage
+            1.200, 0.00,    ! (kg kg-1 d-1)
+            1.500, 0.00,
+            1.501, 0.02,
+            2.00,  0.05
+* Maximum nitrogen concentrations as function of
+* development stage
+NMAXST  =    0.0, 0.045,      ! maximum nitrogen concentration in stems (kg N kg-1 biomass)
+             1.0, 0.037,
+             2.0, 0.016
+NMAXLT  =    0.0, 0.075,       ! maximum nitrogen concentration in leaves (kg N kg-1 biomass)
+             1.0, 0.065,
+             2.0, 0.040  
+NMAXRT  =    0.0, 0.045,        ! maximum nitrogen concentration in roots (kg N kg-1 biomass)
+             1.0, 0.037,
+             2.0, 0.016
+NMAXTU  =    0.0, 0.020,        ! maximum nitrogen concentration in tubers (kg N kg-1 biomass)
+             1.0, 0.020,
+             2.0, 0.013
+*
+*
+* correction factor for maximum leaf assimilation rate dependent on CO2 conc.
+FAMAXTB  =   40., 0.0,           ! CO2 correction factor for maximum leaf assimilation rate (-)
+            355., 1.0,
+            710., 1.5,
+           1000., 1.7,
+           2000., 1.7
+* correction factor for specific leaf area dependent on CO2 conc.
+FSLATB   =   40., 1.20,          ! CO2 correction factor for specific leaf area (-)
+            355., 1.00,
+            710., 0.80,
+           1000., 0.72,
+           2000., 0.72
+

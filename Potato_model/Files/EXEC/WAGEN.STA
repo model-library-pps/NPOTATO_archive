@@ -1,0 +1,18 @@
+
+
+
+*** RESULTS OF CROP GROWTH MODEL NPOTATO *** SUMMARY OF OUTPUT FOR POTATO AND YIELD STATISTICS ***
+
+Name of run: wagen, Station= wage , Soil=   1, Crop=   1, Organic M.=   1, Nsoil=   1, Tub.gr.=  0, Leafcl.=  1, IRR=  0, Pot.p.=   0, Runof= .00, CO2=355.
+ test                                                                            
+
+
+YEAR     PLA EMERG  TUBI  HALT   WRT   WLV    WST   WTU    TBMR     HI  LAIM PARINT RUE   DWAV RAIN  ESOIL   TRANS DRAIN RUNOF IRR  WUE MINOM MINFM DNTOT NRAIN NGIFT NUPT  NLEACH NIMMO  NUE  DNFM  NBIOM
+1971       0   130   140   230   490.   659.   609. 10124. 11392.   .89  3.17  617.  1.85   71.  224.   81.    195.  19.   0.   0.  4.13  61.3   5.8  31.1   4.5    .0  99.3   1.9    .0 114.7  34.8  29.0
+
+ MEANS over   1 years  :
+          0.  130.  140.  230.   490.   659.   609. 10124. 11392.   .89  3.17  617.  1.85   71.  224.   81.    195.  19.   0.   0.  4.13  61.3   5.8  31.1   4.5    .0  99.3   1.9    .0 114.7  34.8  29.0
+ STANDARD DEVIATIONS  :
+          0.    0.    0.    0.     0.     0.     0.     0.     0.   .00   .00    0.   .00    0.    0.    0.      0.   0.   0.   0.   .00    .0    .0    .0    .0    .0    .0    .0    .0    .0    .0    .0
+ VARIATION COEFFICIENTS (%)  : 
+          .0    .0    .0    .0     .0     .0     .0     .0     .0    .0    .0    .0    .0    .0    .0    .0      .0   .0   .0   .0    .0    .0    .0    .0    .0    .0    .0    .0    .0    .0    .0    .0

@@ -1,0 +1,40 @@
+
+
+
+*** RESULTS OF CROP GROWTH MODEL NPOTATO *** SUMMARY OF OUTPUT FOR POTATO AND YIELD STATISTICS ***
+
+Name of run: WAGII, Station= WAGE , Soil=   1, Crop=   2, Organic M.=   1, Nsoil=   1, Tub.gr.=  1, Leafcl.=  1, IRR=  1, Pot.p.=   1, Runof= .00, CO2=355.
+ Wageningen, irr.+ pot. pr., 10 cm soil w., mid var.,RUE=3.0                     
+
+
+YEAR     PLA EMERG  TUBI  HALT   WRT   WLV    WST   WTU    TBMR     HI  LAIM PARINT RUE   DWAV RAIN  ESOIL   TRANS DRAIN RUNOF IRR  WUE MINOM MINFM DNTOT NRAIN NGIFT NUPT  NLEACH NIMMO  NUE  DNFM  NBIOM
+1970     105   137   163   262  1372.  1452.  3272. 16598. 21322.   .78  6.79  766.  2.78    6.  323.  124.    342.  83.   0. 220.  4.57 112.5   6.5-118.4   6.5 400.0 360.8  18.3    .0  59.1  39.1  32.6
+1971     105   137   160   263  1289.  1232.  3000. 16743. 20975.   .80  5.82  754.  2.78   46.  285.  120.    320.  41.   0. 150.  4.77 109.3   6.5-135.4   5.7 400.0 353.9   4.8    .0  59.3  39.0  32.5
+1972     105   144   168   275  1188.  1231.  2894. 16765. 20890.   .80  5.93  747.  2.80   16.  421.  139.    275. 102.   0.  79.  5.04 108.0   6.5-142.3   8.4 400.0 341.4  17.7    .0  61.2  38.9  32.4
+
+ MEANS over   3 years  :
+        105.  139.  164.  267.  1283.  1305.  3055. 16702. 21062.   .79  6.18  755.  2.79   23.  343.  128.    313.  76.   0. 150.  4.79 110.0   6.5-132.0   6.9 400.0 352.0  13.6    .0  59.8  39.0  32.5
+ STANDARD DEVIATIONS  :
+          0.    3.    3.    6.    75.   104.   159.    74.   187.   .01   .43    8.   .01   17.   57.    8.     28.  25.   0.  57.   .19   1.9    .0  10.0   1.1    .0   8.0   6.2    .0   1.0    .1    .1
+ VARIATION COEFFICIENTS (%)  : 
+          .0   2.4   2.0   2.2    5.9    8.0    5.2     .4     .9   1.3   7.0   1.1    .3  75.2  16.7   6.6     9.0 33.8   .0 38.4   4.0   1.7    .2   7.6  16.7    .0   2.3  45.8    .0   1.6    .2    .2
+
+
+
+*** RESULTS OF CROP GROWTH MODEL NPOTATO *** SUMMARY OF OUTPUT FOR POTATO AND YIELD STATISTICS ***
+
+Name of run: WAGWW, Station= WAGE , Soil=   1, Crop=   2, Organic M.=   1, Nsoil=   1, Tub.gr.=  1, Leafcl.=  1, IRR=  0, Pot.p.=   1, Runof= .00, CO2=355.
+ Wageningen, not-irr.+ pot. pr., 10 cm soil w., mid var.,RUE=3.0                 
+
+
+YEAR     PLA EMERG  TUBI  HALT   WRT   WLV    WST   WTU    TBMR     HI  LAIM PARINT RUE   DWAV RAIN  ESOIL   TRANS DRAIN RUNOF IRR  WUE MINOM MINFM DNTOT NRAIN NGIFT NUPT  NLEACH NIMMO  NUE  DNFM  NBIOM
+1970     105   137   163   262   682.   777.  1793. 12409. 14979.   .83  3.41  692.  2.17   25.  323.  135.    201.  12.   0.   0.  4.46  91.5   6.4-251.6   6.5 400.0 241.8   1.2    .0  62.0  38.1  31.8
+1971     105   137   160   263  1079.  1132.  2366. 12905. 16403.   .79  5.43  747.  2.20   77.  285.  118.    231.  13.   0.   0.  4.69  88.6   6.3-164.6   5.7 400.0 306.1   1.2    .0  53.6  37.9  31.6
+1972     105   144   168   275  1182.  1225.  2860. 16606. 20691.   .80  5.93  746.  2.78   37.  421.  139.    271.  48.   0.   0.  5.05 103.3   6.5-149.5   8.4 400.0 341.5   5.4    .0  60.6  38.7  32.3
+
+ MEANS over   3 years  :
+        105.  139.  164.  267.   981.  1045.  2340. 13973. 17358.   .81  4.92  728.  2.38   46.  343.  131.    234.  24.   0.   0.  4.73  94.5   6.4-188.6   6.9 400.0 296.5   2.6    .0  58.7  38.2  31.9
+ STANDARD DEVIATIONS  :
+          0.    3.    3.    6.   216.   193.   436.  1873.  2428.   .02  1.09   26.   .28   22.   57.    9.     29.  17.   0.   0.   .24   6.3    .1  45.0   1.1    .0  41.3   2.0    .0   3.7    .4    .3
+ VARIATION COEFFICIENTS (%)  : 
+          .0   2.4   2.0   2.2   22.0   18.5   18.6   13.4   14.0   2.1  22.1   3.5  11.8  48.0  16.7   6.9    12.2 67.6   .0   .0   5.1   6.7   1.0  23.9  16.7    .0  13.9  76.2    .0   6.2   1.0   1.0
